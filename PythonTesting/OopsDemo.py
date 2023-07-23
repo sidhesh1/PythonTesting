@@ -4,10 +4,9 @@ class Calculator:
     def __init__(self, a, b):
         self.firstNumber = a
         self.secondNumber = b
-
         print("I'm called automatically when object of the class is created")
 
-    def getData():
+    def getData(self):
         print("Currently inside method of the class")
 
     def summation(self):
